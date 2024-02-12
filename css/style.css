@@ -1,0 +1,72 @@
+html,body{
+  color: white;
+  background-color: #0d0d0d;
+}
+
+
+.mealNameHov{
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 0%;
+  overflow: hidden;
+  transition: all 400ms; 
+}
+
+.nameOfMeal:hover .mealNameHov{
+  cursor: pointer;
+  height: 100%;
+}
+
+.inner-loading-screen{
+  display: flex;
+}
+
+.fa-spinner{
+  cursor: pointer;
+}
+
+.logo{
+  width: 50px;
+}
+
+
+.nav-tab{
+  background-color: #0d0d0d;
+}
+
+.nav-header i, .nav-footer i{
+  cursor: pointer;
+}
+
+#nav-links li{
+  top:300px;
+  cursor: pointer;
+}
+
+
+.form-control::placeholder {
+  color: rgb(130, 128, 128);
+  opacity: 1;
+  
+}
+
+.form-control:-ms-input-placeholder {
+  color: rgb(130, 128, 128);
+}
+
+
+.custom-description{
+  max-lines: 3;
+  overflow: hidden;
+  max-height: 70px;
+}
+
+.pointer-card{
+  cursor: pointer;
+}
+
+
+.custom-desc{
+  max-lines: 5;
+  overflow: hidden;
+  max-height: 100px;
+}
